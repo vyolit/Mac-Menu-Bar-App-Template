@@ -1,0 +1,27 @@
+/*
+  Localizable.strings
+  Mac-Menu-Bar-App-Template
+
+  Created by Alexandra Aurora Göttlicher
+
+*/
+
+// Menu Item
+"StatusItemAbout" = "About";
+"StatusItemPreferences" = "Preferences";
+"StatusItemQuit" = "Quit";
+
+// Preferences Tab Controller
+"PreferencesTabGeneral" = "General";
+"PreferencesTabGeneralPreferences" = "General Preferences";
+"PreferencesTabAbout" = "About";
+"PreferencesTabAboutPreferences" = "About Preferences";
+
+// General Preferences
+"GeneralPreferencesStartup" = "Startup";
+"GeneralPreferencesStartupLabel" = "Launch at login";
+
+// About Preferences
+"AboutPreferencesVersion" = "Version";
+"AboutPreferencesGitHub" = "GitHub @ vyolit";
+"AboutPreferencesCopyright" = "Alexandra Aurora Göttlicher";
