@@ -17,7 +17,7 @@
     [self setView:[[NSView alloc] init]];
     
     [self setLaunchAtLoginCell:[[CheckboxCell alloc] init]];
-    [[self launchAtLoginCell] setTitle:[NSString stringWithFormat:@"%@:", NSLocalizedString(@"GeneralPreferencesStartup", nil)]];
+    [[self launchAtLoginCell] setTitle:NSLocalizedString(@"GeneralPreferencesStartup", nil)];
     [[self launchAtLoginCell] setCheckboxTitle:NSLocalizedString(@"GeneralPreferencesStartupLabel", nil)];
     [[self launchAtLoginCell] setAction:@selector(setLaunchAtLogin)];
     [[self launchAtLoginCell] setTarget:self];
