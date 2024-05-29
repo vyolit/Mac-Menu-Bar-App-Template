@@ -11,11 +11,14 @@
 #import "../../Utils/CFUtil.h"
 
 @interface AboutPreferenceViewController : NSViewController
-@property(nonatomic)NSImageView* iconImageView;
 @property(nonatomic)NSTextField* titleLabel;
-@property(nonatomic)SeparatorCell* titleSeparatorCell;
 @property(nonatomic)NSTextField* versionLabel;
-@property(nonatomic)SeparatorCell* developerSeparatorCell;
-@property(nonatomic)NSTextField* developerLabel;
+@property(nonatomic)SeparatorCell* versionSeparatorCell;
+@property(nonatomic)NSButton* sponsorButton;
+@property(nonatomic)NSTextField* sponsorLabel;
+@property(nonatomic)SeparatorCell* sponsorSeparatorCell;
+@property(nonatomic)NSButton* githubButton;
+@property(nonatomic)NSTextField* creditsLabel;
+@property(nonatomic)SeparatorCell* creditsSeparatorCell;
 @property(nonatomic)NSTextField* copyrightLabel;
 @end

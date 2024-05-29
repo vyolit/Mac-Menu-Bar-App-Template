@@ -23,5 +23,9 @@
 
 // About Preferences
 "AboutPreferencesVersion" = "Version";
-"AboutPreferencesGitHub" = "GitHub @ vyolit";
+"AboutPreferencesSponsor" = "Sponsor this project";
+"AboutPreferencesSponsorAcknowledgement" = "Let me know that you like what I do.";
+"AboutPreferencesGitHub" = "View Source Code on GitHub";
+"AboutPreferencesCredits" = "Thanks to you and everyone who has helped in any way.";
+// Ignore this.
 "AboutPreferencesCopyright" = "Alexandra Aurora Göttlicher";
