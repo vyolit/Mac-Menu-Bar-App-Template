@@ -10,7 +10,7 @@
 @implementation GeneralPreferenceViewController
 - (void)viewDidAppear {
     [super viewDidAppear];
-    [[[self view] window] setContentSize:NSSizeFromCGSize(CGSizeMake(430, 170))];
+    [[[self view] window] setContentSize:NSSizeFromCGSize(CGSizeMake(430, 55))];
 }
 
 - (void)loadView {
