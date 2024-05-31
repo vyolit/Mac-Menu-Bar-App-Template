@@ -6,6 +6,8 @@
 //
 
 #import "Environment.h"
+#import "Preferences/PreferenceManager.h"
+#import "Preferences/PreferenceWindowController.h"
 
 @implementation Environment
 + (instancetype)sharedInstance {

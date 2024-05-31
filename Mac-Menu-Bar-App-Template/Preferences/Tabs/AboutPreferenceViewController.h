@@ -5,12 +5,11 @@
 //  Created by Alexandra Aurora Göttlicher
 //
 
-#import <AppKit/AppKit.h>
-#import "SeparatorCell.h"
-#import "../../Environment.h"
-#import "../../Utils/CFUtil.h"
+#import "AbstractPreferenceViewController.h"
 
-@interface AboutPreferenceViewController : NSViewController
+@class SeparatorCell;
+
+@interface AboutPreferenceViewController : AbstractPreferenceViewController
 @property(nonatomic)NSTextField* titleLabel;
 @property(nonatomic)NSTextField* versionLabel;
 @property(nonatomic)SeparatorCell* versionSeparatorCell;

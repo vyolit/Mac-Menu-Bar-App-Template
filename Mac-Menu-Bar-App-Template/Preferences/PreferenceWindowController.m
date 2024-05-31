@@ -6,6 +6,7 @@
 //
 
 #import "PreferenceWindowController.h"
+#import "PreferenceTabViewController.h"
 
 @implementation PreferenceWindowController
 - (instancetype)init {

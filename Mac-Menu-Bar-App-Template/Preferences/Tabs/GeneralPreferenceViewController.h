@@ -5,11 +5,10 @@
 //  Created by Alexandra Aurora Göttlicher
 //
 
-#import <AppKit/AppKit.h>
-#import "../../Environment.h"
-#import "Cells/CheckboxCell.h"
-#import "ServiceManagement/ServiceManagement.h"
+#import "AbstractPreferenceViewController.h"
 
-@interface GeneralPreferenceViewController : NSViewController <NSTextFieldDelegate>
+@class CheckboxCell;
+
+@interface GeneralPreferenceViewController : AbstractPreferenceViewController <NSTextFieldDelegate>
 @property(nonatomic)CheckboxCell* launchAtLoginCell;
 @end

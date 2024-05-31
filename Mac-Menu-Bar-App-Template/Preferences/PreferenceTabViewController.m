@@ -6,6 +6,8 @@
 //
 
 #import "PreferenceTabViewController.h"
+#import "Tabs/GeneralPreferenceViewController.h"
+#import "Tabs/AboutPreferenceViewController.h"
 
 @implementation PreferenceTabViewController
 - (void)viewDidLoad {

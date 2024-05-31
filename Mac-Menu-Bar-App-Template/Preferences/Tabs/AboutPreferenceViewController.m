@@ -6,6 +6,8 @@
 //
 
 #import "AboutPreferenceViewController.h"
+#import "SeparatorCell.h"
+#import "../../Utils/CFUtil.h"
 
 @implementation AboutPreferenceViewController
 - (void)viewDidAppear {

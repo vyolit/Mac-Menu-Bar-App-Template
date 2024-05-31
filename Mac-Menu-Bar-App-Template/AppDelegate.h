@@ -5,8 +5,7 @@
 //  Created by Alexandra Aurora Göttlicher
 //
 
-#import <Cocoa/Cocoa.h>
-#import "Environment.h"
+#import <AppKit/AppKit.h>
 
 @interface AppDelegate : NSObject <NSApplicationDelegate> {
     NSStatusItem* _statusItem;

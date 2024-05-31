@@ -6,9 +6,6 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "AppDelegate.h"
-#import "Preferences/PreferenceManager.h"
-#import "Preferences/PreferenceWindowController.h"
 
 @class AppDelegate;
 @class PreferenceManager;

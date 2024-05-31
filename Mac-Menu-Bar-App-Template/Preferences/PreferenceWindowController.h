@@ -6,7 +6,6 @@
 //
 
 #import <AppKit/AppKit.h>
-#import "PreferenceTabViewController.h"
 
 typedef NS_ENUM(NSUInteger, PreferenceTabTypes) {
     PreferenceTabGeneral = 0,

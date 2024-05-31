@@ -6,6 +6,7 @@
 //
 
 #import "PreferenceManager.h"
+#import "PreferenceKeys.h"
 
 @implementation PreferenceManager
 - (instancetype)init {

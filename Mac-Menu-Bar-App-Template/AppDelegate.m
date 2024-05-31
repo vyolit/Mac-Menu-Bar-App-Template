@@ -6,6 +6,10 @@
 //
 
 #import "AppDelegate.h"
+#import "Environment.h"
+#import "Preferences/PreferenceManager.h"
+#import "Preferences/PreferenceWindowController.h"
+#import "Utils/CFUtil.h"
 
 @interface AppDelegate ()
 @end

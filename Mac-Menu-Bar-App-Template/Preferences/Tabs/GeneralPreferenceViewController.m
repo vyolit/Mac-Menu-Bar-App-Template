@@ -6,6 +6,10 @@
 //
 
 #import "GeneralPreferenceViewController.h"
+#import "Cells/CheckboxCell.h"
+#import "../../Preferences/PreferenceManager.h"
+#import "../../Preferences/PreferenceKeys.h"
+#import "ServiceManagement/ServiceManagement.h"
 
 @implementation GeneralPreferenceViewController
 - (void)viewDidAppear {
@@ -35,16 +39,14 @@
 }
 
 - (void)setLaunchAtLogin {
-    PreferenceManager* preferenceManager = [[Environment sharedInstance] preferenceManager];
     BOOL launchAtLogin = [[self launchAtLoginCell] getIsOn];
-    [preferenceManager setPreference:@(launchAtLogin) forKey:kPreferenceKeyLaunchAtLogin];
+    [_preferenceManager setPreference:@(launchAtLogin) forKey:kPreferenceKeyLaunchAtLogin];
 
     SMLoginItemSetEnabled((__bridge CFStringRef)@"codes.aurora.Mac-Menu-Bar-App-TemplateAutoLauncher", (Boolean)launchAtLogin);
 }
 
 - (void)loadPreferences {
-    PreferenceManager* preferenceManager = [[Environment sharedInstance] preferenceManager];
-    BOOL launchAtLogin = [preferenceManager launchAtLogin];
+    BOOL launchAtLogin = [_preferenceManager launchAtLogin];
     [[self launchAtLoginCell] setOn:launchAtLogin];
 }
 @end

@@ -6,8 +6,6 @@
 //
 
 #import <AppKit/AppKit.h>
-#import "GeneralPreferenceViewController.h"
-#import "AboutPreferenceViewController.h"
 
 @interface PreferenceTabViewController : NSTabViewController
 @end

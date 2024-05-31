@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A8082F5A298698A4002F2E66 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = A8082F5C298698A4002F2E66 /* Localizable.strings */; };
+		A82F54DE2C079A5500E446FA /* AbstractPreferenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A82F54DD2C079A5500E446FA /* AbstractPreferenceViewController.m */; };
 		A8556A0028BA5BC5006FAD47 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A85569FF28BA5BC5006FAD47 /* AppDelegate.m */; };
 		A8556A0528BA5BC9006FAD47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8556A0428BA5BC9006FAD47 /* Assets.xcassets */; };
 		A8556A0828BA5BC9006FAD47 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8556A0628BA5BC9006FAD47 /* Main.storyboard */; };
@@ -46,6 +47,8 @@
 
 /* Begin PBXFileReference section */
 		A8082F5B298698A4002F2E66 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A82F54DC2C079A2800E446FA /* AbstractPreferenceViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AbstractPreferenceViewController.h; sourceTree = "<group>"; };
+		A82F54DD2C079A5500E446FA /* AbstractPreferenceViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AbstractPreferenceViewController.m; sourceTree = "<group>"; };
 		A85569FB28BA5BC5006FAD47 /* Mac-Menu-Bar-App-Template.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mac-Menu-Bar-App-Template.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A85569FE28BA5BC5006FAD47 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A85569FF28BA5BC5006FAD47 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -151,6 +154,8 @@
 			isa = PBXGroup;
 			children = (
 				B212510A164E98EB3CA0C634 /* Cells */,
+				A82F54DD2C079A5500E446FA /* AbstractPreferenceViewController.m */,
+				A82F54DC2C079A2800E446FA /* AbstractPreferenceViewController.h */,
 				B21259F55F9781B1FE48C8D3 /* GeneralPreferenceViewController.m */,
 				B2125BB2674B656605D1A51D /* GeneralPreferenceViewController.h */,
 				B21251A7B373FEDAFF395185 /* AboutPreferenceViewController.m */,
@@ -181,12 +186,12 @@
 			isa = PBXGroup;
 			children = (
 				A87EFFC52B4973450050D6DF /* Tabs */,
-				B21254C101234B24C2540F4B /* PreferenceWindowController.h */,
 				B2125B326230C3C75848D2F0 /* PreferenceWindowController.m */,
-				B21253CCBEBDFB0CFA716D47 /* PreferenceTabViewController.h */,
+				B21254C101234B24C2540F4B /* PreferenceWindowController.h */,
 				B2125658752882B4DB52A175 /* PreferenceTabViewController.m */,
-				B21253C8C9B0EDA93D22F115 /* PreferenceManager.h */,
+				B21253CCBEBDFB0CFA716D47 /* PreferenceTabViewController.h */,
 				B2125623128B2C3606CA7580 /* PreferenceManager.m */,
+				B21253C8C9B0EDA93D22F115 /* PreferenceManager.h */,
 				B212552A93929C314EB65C43 /* PreferenceKeys.h */,
 			);
 			path = Preferences;
@@ -328,6 +333,7 @@
 				B2125AB72487A673033672E8 /* PreferenceWindowController.m in Sources */,
 				B2125DB99943D1992E86644F /* GeneralPreferenceViewController.m in Sources */,
 				A86EA2292B470BC700CE4A68 /* CFUtil.m in Sources */,
+				A82F54DE2C079A5500E446FA /* AbstractPreferenceViewController.m in Sources */,
 				B21258A0C0FD28A932209890 /* CheckboxCell.m in Sources */,
 				B2125F304AB79BBE5B354C84 /* DropdownCell.m in Sources */,
 				B2125496BACF0AC600463545 /* TextFieldCell.m in Sources */,
