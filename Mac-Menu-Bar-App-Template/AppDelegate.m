@@ -15,17 +15,26 @@
 @end
 
 @implementation AppDelegate
+/**
+ * Registers and initializes required classes for later use.
+ */
 - (void)applicationWillFinishLaunching:(NSNotification *)notification {
     [[Environment sharedInstance] setAppDelegate:self];
     [[Environment sharedInstance] setPreferenceManager:[[PreferenceManager alloc] init]];
     [[Environment sharedInstance] setPreferenceWindowController:[[PreferenceWindowController alloc] init]];
 }
 
+/**
+ * Creates the status item.
+ */
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
     _statusItem = [[NSStatusBar systemStatusBar] statusItemWithLength:NSVariableStatusItemLength];
     [self createStatusItemMenu];
 }
 
+/**
+ * Creates the status item's menu.
+ */
 - (void)createStatusItemMenu {
     [_statusItem setMenu:[[NSMenu alloc] init]];
     [[_statusItem button] setImage:[NSImage imageWithSystemSymbolName:@"app" accessibilityDescription:nil]];
@@ -45,14 +54,23 @@
     [[_statusItem menu] addItem:quitItem];
 }
 
+/**
+ * Opens the about panel.
+ */
 - (void)openAbout {
     [[[Environment sharedInstance] preferenceWindowController] showWithTab:PreferenceTabAbout];
 }
 
+/**
+ * Opens the preferences panel.
+ */
 - (void)openPreferences {
     [[[Environment sharedInstance] preferenceWindowController] show];
 }
 
+/**
+ * Quits the app.
+ */
 - (void)quit {
     [[NSApplication sharedApplication] terminate:nil];
 }
