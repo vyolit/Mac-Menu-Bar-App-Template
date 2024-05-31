@@ -9,6 +9,6 @@
 
 @class CheckboxCell;
 
-@interface GeneralPreferenceViewController : AbstractPreferenceViewController <NSTextFieldDelegate>
+@interface GeneralPreferenceViewController : AbstractPreferenceViewController
 @property(nonatomic)CheckboxCell* launchAtLoginCell;
 @end
