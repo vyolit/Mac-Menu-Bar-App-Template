@@ -3,7 +3,7 @@ name: Bug Report
 about: Report a bug in Mac-Menu-Bar-App-Template.
 title: ''
 labels: bug
-assignees: vyolit
+assignees: AlexandraAurora
 
 ---
 

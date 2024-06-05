@@ -173,10 +173,10 @@
 }
 
 - (void)openSponsoring {
-    [[NSWorkspace sharedWorkspace] openURL:[NSURL URLWithString:@"https://ko-fi.com/vyolit"]];
+    [[NSWorkspace sharedWorkspace] openURL:[NSURL URLWithString:@"https://ko-fi.com/AlexandraAurora"]];
 }
 
 - (void)openGitHub {
-    [[NSWorkspace sharedWorkspace] openURL:[NSURL URLWithString:@"https://github.com/vyolit/Mac-Menu-Bar-App-Template"]];
+    [[NSWorkspace sharedWorkspace] openURL:[NSURL URLWithString:@"https://github.com/AlexandraAurora/Mac-Menu-Bar-App-Template"]];
 }
 @end
